@@ -1,0 +1,11 @@
+ext.pathMapper = [:]
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/Kotlin/lib/kotlin-gradle-tooling.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/Kotlin/lib/kotlin-gradle-tooling.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-api-8.10.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-api-8.10.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/util_rt.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/util_rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/external-system-rt.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/opentelemetry.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/opentelemetry.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/util-8.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/lib/util-8.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.3.4.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put("<<target java executable path>>", '/usr/lib/jvm/java-17-openjdk-amd64/bin/java')
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
